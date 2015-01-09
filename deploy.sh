@@ -1,0 +1,1 @@
+curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl
