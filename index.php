@@ -61,7 +61,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                 <a href="http://ouzo.readthedocs.org">DOCS</a>
             </li>
             <li>
-                <a href="http://blog.ouzoframework.org/">BLOG</a>
+                <a href="http://blog.ouzoframework.org/">BLOGG</a>
             </li>
             <li>
                 <a href="https://packagist.org/packages/letsdrink/ouzo">DOWNLOAD</a>
