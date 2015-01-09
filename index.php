@@ -61,7 +61,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                 <a href="http://ouzo.readthedocs.org">DOCS</a>
             </li>
             <li>
-                <a href="http://blog.ouzoframework.org/">BLOGG</a>
+                <a href="http://blog.ouzoframework.org/">BLOG</a>
             </li>
             <li>
                 <a href="https://packagist.org/packages/letsdrink/ouzo">DOWNLOAD</a>
@@ -109,7 +109,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
 
             <div class="row text-center big-links">
 
-                <a href="https://github.com/letsdrink/ouzo/wiki/Skeleton-app-explained"
+                <a href="http://ouzo.readthedocs.org/en/latest/tutorials/project_structure_explained.html"
                    class="col-sm-6 col-lg-3 why-use-item">
                     <div>
                         <i class="fa fa-gears"></i>
@@ -124,7 +124,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                     </div>
                 </a>
 
-                <a href="https://github.com/letsdrink/ouzo/wiki/ORM" class="col-sm-6 col-lg-3 why-use-item">
+                <a href="http://ouzo.readthedocs.org/en/latest/documentation/orm.html" class="col-sm-6 col-lg-3 why-use-item">
                     <div>
                         <i class="fa fa-sitemap"></i>
                     </div>
@@ -138,7 +138,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                     </div>
                 </a>
 
-                <a href="https://github.com/letsdrink/ouzo/wiki/Routes" class="col-sm-6 col-lg-3 why-use-item">
+                <a href="http://ouzo.readthedocs.org/en/latest/documentation/routes.html" class="col-sm-6 col-lg-3 why-use-item">
                     <div>
                         <i class="fa fa-random"></i>
                     </div>
@@ -152,7 +152,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                     </div>
                 </a>
 
-                <a href="https://github.com/letsdrink/ouzo/wiki/Tests" class="col-sm-6 col-lg-3 why-use-item">
+                <a href="http://ouzo.readthedocs.org/en/latest/documentation/tests.html" class="col-sm-6 col-lg-3 why-use-item">
                     <div>
                         <i class="fa fa-stethoscope"></i>
                     </div>
@@ -340,12 +340,12 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                     </a>
 
                     <div style="width:80px;height: 10px;display:inline-block"></div>
-                    <a href="https://github.com/letsdrink/ouzo/wiki/Skeleton-app-explained" class="btn btn-2">
+                    <a href="http://ouzo.readthedocs.org/en/latest/tutorials/project_structure_explained.html" class="btn btn-2">
                         Skeleton app explained
                     </a>
 
                     <div style="width:80px;height: 10px;display:inline-block"></div>
-                    <a href="https://github.com/letsdrink/ouzo/wiki" class="btn btn-2">
+                    <a href="http://ouzo.readthedocs.org/en/latest/index.html" class="btn btn-2">
                         Ouzo documentation
                     </a>
                 </div>
