@@ -5,4 +5,4 @@ env:
   global:
   - secure: acLOCxIl4vANSnf2KsMPnrtNBSvnJDyMjZFpJL/nWBaLQG1Kyy6oeSaPKVm84j92Jj2h5LgoDoy+oXLfM/R0VS6hio2qXQGJfTZx6Ggp29VBSagxJdqjPEZDR+h4A1WVXf/ozoR4ZeS/qVQ2qmwJNdHoQg9h0819Zb/IQBCJjCw=
   - secure: lvC5PCPx4Jy/tCpbToUfWVCbEvIVyQHJv902E7wtaSBlWtOqXYbsMSym3+JFIIMNZ2a3vICBrTbHzyUTyDCJ/aB6M3vjYjUzXnsYjU2ZOh+uWrIbC7mEZ7BGCDC6kiQyQ/XpwyYT2EHDztXClnhcmVMlXxv3BIhtCrxF+FJ5QdQ=
-script: "find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bbankowski.nazwa.pl/{} \;"
+script: "find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bbankowski.nazwa.pl/{} "
