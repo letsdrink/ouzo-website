@@ -1,14 +1,9 @@
 language: php
-
 php:
-    - 5.4
-
+- 5.4
 env:
-    global:
-        - secure: Bb3T03B7qpcfQZPHhU/NNxjWPJXIq6UrAF/tcW2unJ+lXpkgffL/9rE5mzqeJ1qp3R+K9CjwVhBCj09suWgho6E0nCJmREExI2JQZpyiIODzVO/mpcf7JSaFJcDAXHYp8FUj1DYI1innCABwRSXY7M4C3nQ4Bf/4Yu5CqxuCEZk=
-        - secure: TFT+Bb7EeffKaVLymAyafjEEQwoxX26stAgxUmij3jDqf9hMtMQeB5IfCtrttGeY1eiwpaqPOJOqv9gM1qKnyPtTbYnu238VhbiH0wQRqeGi9zrdT0yJfKV/yrzg6gc7xIFyZDCnsO5sXoHM9MQEFg2ZewHxWeIQob+Xqef8ZIY=
-
+  global:
+  - secure: GGKZ4oIJfqYXRUDRRgG1rzwfkR+UpeFWWekalMZtsOjH7z9T4gtaL+x0IHxmePagIyAsMX0ZjJyEJNozMjG4coywzI1kThUYjDa3K977IijHag4Ln+0nXtNSSKOBjbg5hKQrIKg1vejaLQ8Iti58yXcBguZ08V5YtEsjhS0pVeA=
+  - secure: X7k1BsqQ2mG+59Ysf1HUggMVjijC/6jHGP9PW6FZ3Te2tjsHTCRF/O7mzKQbnlRMsN10OA9Vta4E02LPI2jKfGuicCNRJUiy3NP/dlZRzZ47yBjxgsCnaq1SYz/1wHGncGIEa55309w6UkSxCy3duCxedhPwp2tz11Dorj1UhP8=
 script: "./deploy.sh"
-
-after_success:
-    "curl --ftp-create-dirs -v -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl/index.php"
+after_success: curl --ftp-create-dirs -v -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl/index.php
