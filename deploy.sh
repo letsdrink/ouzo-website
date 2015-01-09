@@ -1,1 +1,1 @@
-find . -type f -exec curl -u xxx:psw --ftp-create-dirs -T {} ftp://ftp.bbankowski.nazwa.pl/{} \;
+find . -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.bbankowski.nazwa.pl/{} \;
