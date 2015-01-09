@@ -1,4 +1,3 @@
 echo "deploying";
-echo "'$FTP_USER:$FTP_PASSWORD'";
-curl --ftp-create-dirs -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl/index.php
+curl --ftp-create-dirs -T index.php -u bbankowski_ouzo:ouZO777^ ftp://ftp.bbankowski.nazwa.pl/index.php
 
