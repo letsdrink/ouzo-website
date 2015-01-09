@@ -3,7 +3,7 @@ php:
 - 5.4
 env:
   global:
-  - secure: GGKZ4oIJfqYXRUDRRgG1rzwfkR+UpeFWWekalMZtsOjH7z9T4gtaL+x0IHxmePagIyAsMX0ZjJyEJNozMjG4coywzI1kThUYjDa3K977IijHag4Ln+0nXtNSSKOBjbg5hKQrIKg1vejaLQ8Iti58yXcBguZ08V5YtEsjhS0pVeA=
-  - secure: X7k1BsqQ2mG+59Ysf1HUggMVjijC/6jHGP9PW6FZ3Te2tjsHTCRF/O7mzKQbnlRMsN10OA9Vta4E02LPI2jKfGuicCNRJUiy3NP/dlZRzZ47yBjxgsCnaq1SYz/1wHGncGIEa55309w6UkSxCy3duCxedhPwp2tz11Dorj1UhP8=
+  - secure: c+eRnU/QJxck8EUZwsxhPsZeiTitrWlExaUx0b8K32EcQyMFFyy6hm2FpMNTnyIyjmYwf9Uel7jy36STjeQsNH/DEafNim7hHsoGXMWmjDTjGF3fd6qedceR99tksTuA8ZWcQ6z1lz5Hhvm62wgsFFNsJc3hnUXgmILKx7jbCt8=
+  - secure: pye/cF8We2gGZoRFNAgZgX6rIRvsZc82fWrN0EkkQuKcc/OEOlDIcgKNxByA7DPwAJ7f3c7d+Ly86GxwuhQwnuJd0Cp3eePLfMnwueO3QQ80OIvBOOVkZSqt2dT8V97e85Jky1OXKnXs0fBo8rOjjCeXOWs8fH+N+QJt7yZQjnQ=
 script: "./deploy.sh"
 after_success: curl --ftp-create-dirs -v -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl/index.php
