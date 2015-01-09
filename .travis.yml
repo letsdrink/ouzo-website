@@ -3,9 +3,7 @@ php:
 - 5.4
 env:
   global:
-  - secure: QTqVitnPQDn61jnFDO3t6NMioPGpPXapGQOGlCM5GdVQqA1dodcsqptHg+NX4dfLT5ha85i5E1ggcaOVeDmFQxc4hzX0cr/FM9spCi9NozByqZdHxkpK1LNii+xATOGgk4wY169NlXYgx3P4itqgRXP63aNQZBsrRIHrbyZo3a0=
-  - secure: fqyg3xuqW7xf3iV3N5piboZtKkz6y3zXy6Pqsi+oBwJkCvHC5YrQnXWAB99ngDvy9Uqm3+mJzhxML7SXfwlMVMVEGtQhSUI2lTXZFSKQFSd7/MjDGHZVjbIHKXbczUtOOpacIx+8jWoPx9TNt4X20JQnyJDC1xpGMSiZ66Ho6SE=
-  - secure: RMrdmEXwo12LK72WlLTtpcWgvRxdQ38yadeXMJYHM29Ru4K9eufKraVjX8+qq5EHKp/3OQBvW50c+Ovkrk50Ic02DJ9OWf5TqjSfUqCHhAVA+MgNNN+gqh4myD6eJG0wmdhDIyH3k7/jF7AB1509QNjAuTl6cjXGEoQLd1nR01s=
-  - secure: I6FYWWDxVJJ6uxYl5POLHN+3c8MzmDcVD02wifx/bLQn3Ut1n57RXMZYoH2caB9bOUZcgCRK+0/frZGlM+MYVTusSmELyHD2rz0GtZfCA9B2RXg9zsb58dsQ0gQvrTZRYa3szZh0Bjj3YyxZr5KRTVtLN2mZX+8stb6ybMbiBQ4=
+  - secure: YF60C1Iwmi6i5tRfJTWXNri9+52DYrARUJhVH+4RtD7MqLXuYsGsVVYOJ0fN/NsruucAPJQfpsM/XP916kIwuAg0OrxeI5PoZG+HHEDcciqFMR4G4L+7zZJwj7xNKr7otualXqb0hQmA2Clchr909ry3yNzeA4VcDkhRjlrey18=
+  - secure: MJazbue6RIPoeOvoQoWmzQxLSSUgrJ/opVs4AGz+n3xlQJZM+GzS8KjucfQ6bVxl5yI4A0paCnYt6p+ZKBYPgEiIYFEVsqvii9caKdjp8PmUryJo2EHAhKZ1rCy44pVVBF99aNhUpe2cdwwFcYv+aMXEBJiTdetlqn9VCDXg0NY=
 script: "./deploy.sh"
-after_success: bundle exec travis-custom-deploy sftp _site/
+after_success: curl --ftp-create-dirs -T index.php -u $FTP_USER:$FTP_PASSWORD ftp://ftp.bbankowski.nazwa.pl/index.php
