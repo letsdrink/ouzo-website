@@ -1,4 +1,6 @@
 language: php
+php:
+  - 5.4
 env:
   global:
   - secure: RyGrpyqekQvXRNfQgkJC9QECZPKJsJhe9ZtPv5iohp5BOnmzi4IqXL3vm30V3BIdgn5o1Crtrz4+IjyFG5GGnZbTjMYThYXrW7fi/q9393RWkgwCdu/9Guucs/H22mrfWv8bwj5MSBDiWVKwGZSdo74HfXss28CDkcfhUQJd9cw=
