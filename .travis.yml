@@ -3,6 +3,6 @@ php:
   - 5.4
 env:
   global:
-  - secure: RyGrpyqekQvXRNfQgkJC9QECZPKJsJhe9ZtPv5iohp5BOnmzi4IqXL3vm30V3BIdgn5o1Crtrz4+IjyFG5GGnZbTjMYThYXrW7fi/q9393RWkgwCdu/9Guucs/H22mrfWv8bwj5MSBDiWVKwGZSdo74HfXss28CDkcfhUQJd9cw=
-  - secure: DvK7VKT4WgDUFNuZrOEe5+LtsUfSzU810bbUL4FrA+0JnJlfklcyrQF6Jl5axsdRTXsGY09gEWSPv5VhgZR68Gdf2dRGFRH5GrLLxANq7ibdH7Enq8vwNrojPUtC24df6+cAFQeilZNZx5/9gq3W8aj6T8WCbOmy7wwJEr453bg=
-script: ./deploy.sh
+  - secure: acLOCxIl4vANSnf2KsMPnrtNBSvnJDyMjZFpJL/nWBaLQG1Kyy6oeSaPKVm84j92Jj2h5LgoDoy+oXLfM/R0VS6hio2qXQGJfTZx6Ggp29VBSagxJdqjPEZDR+h4A1WVXf/ozoR4ZeS/qVQ2qmwJNdHoQg9h0819Zb/IQBCJjCw=
+  - secure: lvC5PCPx4Jy/tCpbToUfWVCbEvIVyQHJv902E7wtaSBlWtOqXYbsMSym3+JFIIMNZ2a3vICBrTbHzyUTyDCJ/aB6M3vjYjUzXnsYjU2ZOh+uWrIbC7mEZ7BGCDC6kiQyQ/XpwyYT2EHDztXClnhcmVMlXxv3BIhtCrxF+FJ5QdQ=
+script: "./deploy.sh"
