@@ -6,4 +6,4 @@ env:
   - secure: Bb3T03B7qpcfQZPHhU/NNxjWPJXIq6UrAF/tcW2unJ+lXpkgffL/9rE5mzqeJ1qp3R+K9CjwVhBCj09suWgho6E0nCJmREExI2JQZpyiIODzVO/mpcf7JSaFJcDAXHYp8FUj1DYI1innCABwRSXY7M4C3nQ4Bf/4Yu5CqxuCEZk=
   - secure: TFT+Bb7EeffKaVLymAyafjEEQwoxX26stAgxUmij3jDqf9hMtMQeB5IfCtrttGeY1eiwpaqPOJOqv9gM1qKnyPtTbYnu238VhbiH0wQRqeGi9zrdT0yJfKV/yrzg6gc7xIFyZDCnsO5sXoHM9MQEFg2ZewHxWeIQob+Xqef8ZIY=
 script: "./deploy.sh"
-after_success: curl --ftp-create-dirs -T index.php -u bbankowski_ouzo:ouZO777^ ftp://ftp.bbankowski.nazwa.pl/index.php
+after_success: curl --ftp-create-dirs -v -T index.php -u bbankowski_ouzo:ouZO777^ ftp.bbankowski.nazwa.pl/index.php
