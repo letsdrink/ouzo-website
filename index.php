@@ -190,7 +190,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
             <div class="col-sm-6 col-lg-3 why-use-item">
                 <h3>PHP 5.3+</h3>
 
-                <p>Ouzo supports PHP version 5.3 or later. Builds are running continuously on 5.3, 5.4 and 5.5.
+                <p>Ouzo supports PHP version 5.3 or later. Builds are running continuously on 5.3, 5.4, 5.5. 5.6 and 7.0
                     Check out our <a href="https://travis-ci.org/letsdrink/ouzo">travis site</a>.</p>
             </div>
 
@@ -221,13 +221,13 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
 
         <div class="col-sm-12">
             <div class="row text-center">
-                <a href="https://github.com/letsdrink/ouzo-app" class="btn btn-2">5 minutes tutorial</a>
+                <a href="https://github.com/letsdrink/ouzo-app#ouzo---5-minutes-tutorial" target="_blank" class="btn btn-2">5 minutes tutorial</a>
 
                 <div style="width:80px;height: 10px;display:inline-block"></div>
-                <a href="https://github.com/letsdrink/ouzo" class="btn btn-2">Source code @ Github</a>
+                <a href="https://github.com/letsdrink/ouzo" target="_blank" class="btn btn-2">Source code @ Github</a>
 
                 <div style="width:80px;height: 10px;display:inline-block"></div>
-                <a href="https://travis-ci.org/letsdrink/ouzo" class="btn btn-2">Continuous integration</a>
+                <a href="https://travis-ci.org/letsdrink/ouzo" target="_blank" class="btn btn-2">Continuous integration</a>
             </div>
         </div>
 
