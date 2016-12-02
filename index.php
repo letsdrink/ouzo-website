@@ -265,7 +265,7 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
                     <h2>1. Set up project</h2>
 
                     <p>We recommend using composer (<a href="http://getcomposer.org">http://getcomposer.org</a>):</p>
-                    <pre>composer.phar create-project letsdrink/ouzo-app:1.4.0 myproject</pre>
+                    <pre>composer.phar create-project letsdrink/ouzo-app:1.6.0 myproject</pre>
                     <p><br/>Change <code>myproject</code> to your project's name.</p>
                 </div>
             </div>
