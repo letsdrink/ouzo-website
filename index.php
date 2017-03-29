@@ -181,16 +181,16 @@ if ($_SERVER['SERVER_NAME'] == 'ouzoframework.org') {
             </div>
             <div class="col-sm-12">
                 <p class="text-large">
-                    PHP 5.3+ and Apache
+                    PHP 5.6+ and Apache
                 </p>
             </div>
         </div>
 
         <div class="row text-center">
             <div class="col-sm-6 col-lg-3 why-use-item">
-                <h3>PHP 5.3+</h3>
+                <h3>PHP 5.6+</h3>
 
-                <p>Ouzo supports PHP version 5.3 or later. Builds are running continuously on 5.3, 5.4, 5.5. 5.6 and 7.0
+                <p>Ouzo supports PHP version 5.6 or later. Builds are running continuously on 5.6, 7.0 and 7.1
                     Check out our <a href="https://travis-ci.org/letsdrink/ouzo">travis site</a>.</p>
             </div>
 
